@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: auto;
+    overflow-x: hidden;
 
 }
 
@@ -12,7 +13,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
 }
 
 
@@ -54,10 +54,10 @@ nav img {
 }
 
 .section1 {
-    background-color: red;
     display: flex;
     justify-content: center;
     position: relative;
+    height: 80vh;
 
 
 }
@@ -95,9 +95,17 @@ nav img {
 }
 
 .section2 {
-    display: grid;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    border: rgb(139, 25, 161) solid;
 
 
+}
+
+.kleidung-container {
+    border: solid rgb(60, 235, 241); 
+ 
 }
 
 #kleidung {
@@ -143,24 +151,36 @@ nav img {
 }
 
 footer {
-    background-color: rgb(204, 198, 198);
+    background-color: rgb(241, 241, 241);
 }
 
 #vorteile {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: solid 1px;
-
+    animation: coolevorteile 15s linear infinite;
+    padding-top: 12px;
 }
+
+@keyframes coolevorteile {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
 
 footer ul {
     list-style: none;
+}
 
+footer li {
 }
 
 #footer-info {
     display: flex;
     justify-content: space-around;
 }
+
