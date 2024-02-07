@@ -3,10 +3,7 @@ body {
 
 }
 
-.allesaußernav {
-    display: flex;
-    justify-content: center;
-}
+
 
 nav {
     background-color: rgb(160, 153, 153);
@@ -94,4 +91,29 @@ nav img {
 #description button:hover {
     background-color: rgb(124, 40, 124);
     transition: .5s;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+
+
+
+
+
+}
+
+#kleidung {
+    border: solid;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#priceandbutton {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
