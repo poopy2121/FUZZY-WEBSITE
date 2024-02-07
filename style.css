@@ -70,16 +70,54 @@ nav img {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 80vh;
+    height: auto;
 
 
+}
+
+.kaka button {
+    border: solid rgb(26, 172, 221);
+    color: lightblue;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.kaka button:hover {
+    background-color: rgb(25, 168, 194);
+    transition: .6s;
 }
 
 .section1 img {
     height: auto;
 }
 
-#description {
+#grid {
+    display: grid;
+    border: solid ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+
+#grid img {
+    height: 500px;
+
+}
+
+#clothes {
+    border: solid 1px ;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.kaka {
+    display: flex;
+    justify-content: space-between;
+}
+
+description {
     position: absolute;
     bottom: 0;
     color: white;
@@ -91,7 +129,7 @@ nav img {
 
 }
 
-#description button {
+description button {
     background-color: rgb(70, 70, 161);
     color: white;
     border: none;
@@ -107,62 +145,15 @@ nav img {
     transition: .5s;
 }
 
-.section2 {
-    height: auto;
-    border: rgb(139, 25, 161) hidden;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
-    grid-gap: 20px; /* Gap between grid items */
 
 
-}
 
-.kleidung-container {
-    border: hidden rgb(60, 235, 241); 
- 
-}
 
-#kleidung {
-    border: hidden green;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.section2 img {
-    height: auto;
-}
 
-#pricebtn {
-    border: hidden orange;
-    display: flex;
-    justify-content: space-between;
-    padding: 12px;
-}
 
-#price {
-    color: rgb(85, 85, 85);
-}
 
-#name {
-    margin-left: 20px;
-}
 
-.section2 button {
-    background-color: white;
-    border-radius: 8px;
-    border: hidden blue 1px;
-    padding: 8px;
-    color: blue;
-}
-
-.section2 button:hover {
-    background-color: blue;
-    color: white;
-    transition: .6s;
-    cursor: pointer;
-}
 
 footer {
     background-color: rgb(241, 241, 241);
@@ -172,7 +163,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    animation: coolevorteile 15s linear infinite;
+    animation: coolevorteile 13s linear infinite;
     padding-top: 12px;
 }
 
