@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: auto;
 
 }
 
@@ -41,7 +42,7 @@ input {
     align-items: center;
 }
 
-ul {
+ nav ul {
     list-style: none;
     display: flex;
     gap: 25px;
@@ -95,22 +96,71 @@ nav img {
 
 .section2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
 
 
 }
 
 #kleidung {
     border: solid green;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .section2 img {
-    height:700px;
+    height: auto;
 }
 
-#price {
+#pricebtn {
     border: solid orange;
     display: flex;
     justify-content: space-between;
+    padding: 12px;
+}
+
+#price {
+    color: rgb(85, 85, 85);
+}
+
+#name {
+    margin-left: 20px;
+}
+
+.section2 button {
+    background-color: white;
+    border-radius: 8px;
+    border: solid blue 1px;
+    padding: 8px;
+    color: blue;
+}
+
+.section2 button:hover {
+    background-color: blue;
+    color: white;
+    transition: .6s;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(204, 198, 198);
+}
+
+#vorteile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px;
+
+}
+
+
+footer ul {
+    list-style: none;
+
+}
+
+#footer-info {
+    display: flex;
+    justify-content: space-around;
 }
