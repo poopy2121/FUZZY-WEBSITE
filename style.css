@@ -2,23 +2,36 @@ body {
     margin: 0;
     height: auto;
     overflow-x: hidden;
+ 
+}
 
+h1 {
+    font-weight: 300;
 }
 
 
 
 nav {
-    background-color: rgb(160, 153, 153);
-    height: auto;
+    background-color: rgb(236, 233, 233);
+    height: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li {
+    font-size: 1.3em;
+}
+
+nav li:hover {
+    color: violet;
+    cursor: pointer;
 }
 
 
-
 #navbar-links {
-        border: solid ;
+        border: hidden ;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -73,7 +86,7 @@ nav img {
     background-color: rgb(51, 48, 48);
     margin-bottom: 12px;
     text-align: center;
-    width: 430px;
+    width: 50%;
     padding-bottom: 20px;
 
 }
@@ -95,21 +108,22 @@ nav img {
 }
 
 .section2 {
-    display: flex;
     height: auto;
-    justify-content: center;
-    border: rgb(139, 25, 161) solid;
+    border: rgb(139, 25, 161) hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 20px; /* Gap between grid items */
 
 
 }
 
 .kleidung-container {
-    border: solid rgb(60, 235, 241); 
+    border: hidden rgb(60, 235, 241); 
  
 }
 
 #kleidung {
-    border: solid green;
+    border: hidden green;
     width: 250px;
     display: flex;
     justify-content: center;
@@ -121,7 +135,7 @@ nav img {
 }
 
 #pricebtn {
-    border: solid orange;
+    border: hidden orange;
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -138,7 +152,7 @@ nav img {
 .section2 button {
     background-color: white;
     border-radius: 8px;
-    border: solid blue 1px;
+    border: hidden blue 1px;
     padding: 8px;
     color: blue;
 }
@@ -172,15 +186,41 @@ footer {
   }
 
 
-footer ul {
-    list-style: none;
-}
-
-footer li {
-}
 
 #footer-info {
     display: flex;
     justify-content: space-around;
+    border: red hidden;
 }
 
+footer img {
+    height: 30px;
+    border: hidden;
+}
+
+
+
+#logos {
+    border: hidden green;
+    width: 50%;
+}
+
+
+
+footer {
+    border: hidden blue;
+}
+
+
+#newsletter-btn {
+    background-color: rgb(97, 97, 196);
+    border-top-right-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+#newsletter-items {
+    position: relative;
+    bottom: 6px;
+
+}
