@@ -95,25 +95,22 @@ nav img {
 
 .section2 {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-
-
-
-
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 
 
 }
 
 #kleidung {
-    border: solid;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    border: solid green;
 }
 
-#priceandbutton {
+.section2 img {
+    height:700px;
+}
+
+#price {
+    border: solid orange;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
