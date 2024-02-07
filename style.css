@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+
+}
+
+.allesaußernav {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(160, 153, 153);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+
+
+#navbar-links {
+        border: solid ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+}
+
+#search-bar {
+    margin-right: 12px;
+}
+
+input {
+    height: 25px;
+    padding: 3px;
+    border-radius: 4px;
+    border: hidden;
+}
+
+#nav-rechts {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav img {
+    height: 25px;
+    cursor: pointer;
+}
+
+.section1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.section1 img {
+    height: auto;
+}
+
+#description {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgb(51, 48, 48);
+    margin-bottom: 12px;
+    text-align: center;
+    width: 430px;
+    padding-bottom: 20px;
+
+}
+
+#description button {
+    background-color: rgb(70, 70, 161);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+#description button:hover {
+    background-color: rgb(124, 40, 124);
+    transition: .5s;
+}
