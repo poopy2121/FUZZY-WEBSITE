@@ -81,7 +81,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
+    border: solid green;
 }
 
 #section1 h1 {
@@ -116,6 +116,7 @@ nav img {
 
 #slider {
     border: solid;
+    position: relative;
     background-image: url('images/C_women.jpg');
     background-size: cover;
     height: 750px;
@@ -125,10 +126,24 @@ nav img {
     margin-bottom: 35px;
 }
 
+
+#description {
+    position: absolute;
+    color: white;
+    background-color: rgb(51, 48, 48);
+    width: 75%;
+    padding-bottom: 20px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border: solid orange;
+}
+
 #arrow {
     height: 50px;
     width: 50px;
     padding: 25px;
+    cursor: pointer;
 }
 
 #womanpic {
@@ -145,7 +160,7 @@ nav img {
 
 
 
-.kaka button {
+.kleidunginfo button {
     border: solid rgb(26, 172, 221);
     color: lightblue;
     background-color: transparent;
@@ -154,7 +169,7 @@ nav img {
     width: 90px;
 }
 
-.kaka button:hover {
+.kleidunginfo button:hover {
     background-color: rgb(25, 168, 194);
     transition: .6s;
 }
@@ -187,20 +202,12 @@ nav img {
     transition: .6s;
 }
 
-.kaka {
+.kleidunginfo {
     display: flex;
     justify-content: space-between;
 }
 
-#description {
-    position: absolute;
-    color: white;
-    background-color: rgb(51, 48, 48);
-    text-align: center;
-    width: 50%;
-    padding-bottom: 20px;
 
-}
 
 #womanpic {
     position: relative;
@@ -221,15 +228,6 @@ nav img {
     background-color: rgb(124, 40, 124);
     transition: .5s;
 }
-
-
-
-
-
-
-
-
-
 
 
 footer {
