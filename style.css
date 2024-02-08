@@ -23,7 +23,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 500; 
-    display: flex;
+   display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,6 +81,14 @@ input {
     border: hidden;
 }
 
+#nav-rechts p {
+    right: 33px;
+    top: 2px;
+    position: relative;
+    font-size: 1em;
+    cursor: pointer;
+}
+
  nav ul {
     list-style: none;
     display: flex;
@@ -98,7 +106,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid green;
+    border: hidden green;
 }
 
 #section1 h1 {
@@ -155,6 +163,7 @@ nav img {
     width: 80%;
     border: solid orange;
     margin-bottom: 25px;
+    margin-left: 120px;
 }
 
 #arrow {
@@ -183,7 +192,7 @@ nav img {
     background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
-    width: 75%;
+    width: 30%;
     padding: 25px;
     font-size: 1em;
 }
@@ -191,6 +200,7 @@ nav img {
 .kleidunginfo button:hover {
     background-color: rgb(25, 168, 194);
     transition: .6s;
+    width: 75%;
 }
 
 .section2 img {
@@ -303,6 +313,7 @@ footer a {
 #newsletter-items {
     position: relative;
     bottom: 6px;
+    border: solid red;
 
 }
 

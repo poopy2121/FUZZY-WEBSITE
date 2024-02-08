@@ -1,13 +1,20 @@
-const einpacken = document.getElementById("add-to-bag");
-let itemsinbag = document.getElementById("was");
-let counter = 0
+const anmeldenbtn = document.getElementById("anmeldenbtn");
+let angemeldet = document.getElementById("newsletter-angemeldet");
+let email = document.getElementById("mailfield").value
+anmeldenbtn.addEventListener('click', function() {
 
 
-einpacken.addEventListener('click', function() {
+
+    angemeldet.innerText = "Vielen Dank, bist angemeldet!";
+
+    let email = document.getElementById("mailfield").value
 
 
-    counter++;
+    if (email == "") {
 
-    itemsinbag.textContent = counter; 
-    
-})    
+        angemeldet.innerText = "Bitte gib deine Email an"
+        
+    }
+
+
+});
