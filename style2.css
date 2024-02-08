@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 204, 233);
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    border: hidden;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 12px 12px 12px ;
+}
+
+img {
+    height: 35px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+#left {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: hidden;
+    height: 100%;
+    color: grey;
+    padding: 50px;
+    margin-top: 24px;
+
+}
+
+label {
+    margin-bottom: 8px;
+    padding-top: 24px;
+}
+
+#was {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+}
+
+input {
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    height: 2.5rem;
+    padding-left: 12px;
+}
+
+button[type="submit"] {
+    color: white;
+    background-color: rgb(121, 68, 172);
+    border: hidden;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 12px;
+    width: 140px;
+}
+
+button[type="submit"]:hover {
+    background-color: blueviolet;
+    transition: .2s;
+}
+  
+
+#right {
+    width: 60%;
+    background-color: rgb(98, 46, 194);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 12px;
+}   
+
+#right button {
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    width: 12rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 0.75em;
+    cursor: pointer;
+}
+
+
+#right button:hover {
+    background-color: rgb(183, 138, 224);
+    transition: .3s;
+}
