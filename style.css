@@ -313,7 +313,7 @@ footer a {
 #newsletter-items {
     position: relative;
     bottom: 6px;
-    border: solid red;
+    border: hidden red;
 
 }
 

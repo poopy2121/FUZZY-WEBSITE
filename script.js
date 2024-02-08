@@ -1,6 +1,9 @@
 const anmeldenbtn = document.getElementById("anmeldenbtn");
 let angemeldet = document.getElementById("newsletter-angemeldet");
 let email = document.getElementById("mailfield").value
+
+
+
 anmeldenbtn.addEventListener('click', function() {
 
 
@@ -18,3 +21,20 @@ anmeldenbtn.addEventListener('click', function() {
 
 
 });
+
+
+const addtobag = document.getElementById("add-to-bag");
+let amountitems = document.getElementById("amountitem");
+let counter = 0;
+
+addtobag.addEventListener('click', function() {
+
+
+    counter++
+
+    amountitems.innerText = counter;
+
+}
+
+
+);
