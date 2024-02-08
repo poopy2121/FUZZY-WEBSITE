@@ -20,10 +20,10 @@ h1 {
 nav {
     background-color: rgb(236, 233, 233);
     height: 90px;
-position: fixed;
-width: 100%;
-z-index: 500; 
-   display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 500; 
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -47,21 +47,38 @@ nav li:hover {
         padding: 15px;
 }
 
-#search-bar {
-    margin-right: 12px;
-}
+
 
 input {
-    height: 25px;
+    height: ;
     padding: 3px;
     border-radius: 4px;
-    border: hidden;
+    border: hidden rgb(247, 175, 187);
+    position: relative;
+}
+
+#lupefield {
+    border: hidden red;
+    display: flex;
+}
+
+#lupefield button {
+    background-color: violet;
+}
+
+#lupe {
+    background-color: rgb(63, 63, 165);
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 4px;
 }
 
 #nav-rechts {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
+    border: hidden;
 }
 
  nav ul {
@@ -135,8 +152,9 @@ nav img {
     padding-bottom: 20px;
     bottom: 0;
     text-align: center;
-    width: 100%;
+    width: 80%;
     border: solid orange;
+    margin-bottom: 25px;
 }
 
 #arrow {
@@ -162,11 +180,12 @@ nav img {
 
 .kleidunginfo button {
     border: solid rgb(26, 172, 221);
-    color: lightblue;
     background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
-    width: 90px;
+    width: 75%;
+    padding: 25px;
+    font-size: 1em;
 }
 
 .kleidunginfo button:hover {
@@ -198,7 +217,7 @@ nav img {
 }
 
 #clothes:hover {
-    background-color: grey;
+    background-color: rgb(221, 212, 212);
     transition: .6s;
 }
 
@@ -260,35 +279,35 @@ footer {
     border: red hidden;
 }
 
-footer img {
-    height: 30px;
-    border: hidden;
-}
-
-
-
-#logos {
-    border: hidden green;
-    width: 50%;
-}
-
-
 
 footer {
     border: hidden blue;
 }
 
+footer a {
+    color: black;
+}
 
-#newsletter-btn {
+
+#newsletter-mail button {
     background-color: rgb(95, 95, 238);
     color: white;
     cursor: pointer;
-    position: relative;
-    right: 25px;
+    height: 50px;
+}
+
+#mailfield {
+    padding: 12px;
 }
 
 #newsletter-items {
     position: relative;
     bottom: 6px;
 
+}
+
+#newsletter-mail {
+    border: hidden green;
+    display: flex;
+    gap: 0;
 }
