@@ -262,6 +262,8 @@ nav img {
 footer {
     background-color: rgb(241, 241, 241);
     margin-top: 75px;
+    display: flex;
+    flex-direction: column;
 }
 
 #vorteile {
@@ -298,6 +300,23 @@ footer a {
     color: black;
 }
 
+#logos img {
+    height: 25px;
+}
+
+#logos {
+    display: flex;
+    border: hidden;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    margin-top: 15px;
+    padding: px;
+}
+
+#logos p {
+    opacity: .5;
+}
 
 #newsletter-mail button {
     background-color: rgb(95, 95, 238);
