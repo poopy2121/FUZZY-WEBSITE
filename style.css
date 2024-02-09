@@ -1,9 +1,8 @@
 body {
     margin: 0;
     height: auto;
-    overflow-x: hidden;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
+    overflow-x: hidden; 
 }
 
 body p {
@@ -19,11 +18,11 @@ h1 {
 
 nav {
     background-color: rgb(236, 233, 233);
-    height: 90px;
+    height: 70px;
     position: fixed;
     width: 100%;
     z-index: 500; 
-   display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -35,7 +34,7 @@ nav {
     border: none;
     border-radius: 12px;
     cursor: pointer;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 nav li {
@@ -49,9 +48,7 @@ nav li:hover {
 
 
 #navbar-links {
-        border: hidden ;
         display: flex;
-        justify-content: flex-start;
         align-items: center;
         padding: 15px;
 }
@@ -59,7 +56,6 @@ nav li:hover {
 
 
 #searchbar {
-    height: ;
     padding: 3px;
     border-radius: 4px;
     border: none;
@@ -114,7 +110,6 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: hidden green;
 }
 
 #section1 h1 {
@@ -149,105 +144,39 @@ nav img {
 
 #slider {
     border: solid;
-    position: relative;
     background-image: url('images/C_women.jpg');
     background-size: cover;
     height: 750px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 35px;
+}
+
+#arrows {
+    border: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
 }
 
 
 #description {
-    position: absolute;
     color: white;
     background-color: rgb(51, 48, 48);
-    width: 75%;
     padding-bottom: 20px;
-    bottom: 0;
     text-align: center;
     width: 80%;
-    border: solid orange;
     margin-bottom: 25px;
-    margin-left: 120px;
 }
-
-#arrow {
-    height: 50px;
-    width: 50px;
-    padding: 25px;
-    cursor: pointer;
-}
-
-
-.section2, footer {
-    position: relative;
-    top: 100px;
-}
-
-
-
-.kleidunginfo button {
-    border: solid rgb(26, 172, 221);
-    background-color: transparent;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 30%;
-    padding: 25px;
-    font-size: 1em;
-}
-
-.kleidunginfo button:hover {
-    background-color: rgb(25, 168, 194);
-    transition: .6s;
-    width: 75%;
-}
-
-.section2 img {
-    width: 95%;
-}
-
-#grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
-
-}
-
-#grid img {
-    height: 500px;
-
-}
-
-#clothes {
-    border: solid 1px ;
-    border-radius: 12px;
-    padding: 12px;
-    box-shadow: 4px 5px;
-}
-
-#clothes:hover {
-    background-color: rgb(221, 212, 212);
-    transition: .6s;
-}
-
-.kleidunginfo {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
 
 
 #description button {
-    background-color: rgb(70, 70, 161);
+    background-color: rgb(92, 92, 230);
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 8px;
     cursor: pointer;
 
 
@@ -259,11 +188,74 @@ nav img {
 }
 
 
+#arrow {
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+
+.section2, footer {
+    margin-top: 150px;
+    width: 100%;
+}
+
+
+#alle-kleidung-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+
+#alle-kleidung-grid img {
+    height: 500px;
+
+}
+
+#kleidung {
+    border: solid 1px ;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 4px 5px;
+}
+
+#kleidung:hover {
+    background-color: rgb(221, 212, 212);
+    transition: .6s;
+}
+
+.in-tasche-preis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-tasche-preis button {
+    border: solid rgb(26, 172, 221);
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 30%;
+    padding: 25px;
+    font-size: 1em;
+}
+
+.in-tasche-preis button:hover {
+    background-color: rgb(25, 168, 194);
+    transition: .6s;
+    width: 75%;
+    color: white;
+}
+
+
+
 footer {
     background-color: rgb(241, 241, 241);
     margin-top: 75px;
     display: flex;
     flex-direction: column;
+    border-top: solid black;
 }
 
 #vorteile-slide {
@@ -285,48 +277,10 @@ footer {
 
 
 
-  footer {
-    border: hidden blue;
-}
-
 #footer-items {
     display: flex;
     justify-content: space-between;
     border: violet hidden;
-}
-
-#itemsandlogos {
-    border: solid green;
-    padding: 35px;
-}
-
-
-#logos {
-    display: flex;
-    border: hidden;
-    justify-content: space-between;
-    align-items: center;
-    border: hidden red;
-}
-
-
-#socialmedia {
-    border: hidden;
-    display: flex;
-    gap: 15px;
-}
-
-footer a {
-    color: black;
-}
-
-#logos img {
-    height: 25px;
-}
-
-
-#logos p {
-    opacity: .5;
 }
 
 #newsletter-mail button {
@@ -352,3 +306,37 @@ footer a {
     display: flex;
     gap: 0;
 }
+
+
+#itemsandlogos {
+    border: solid black;
+    padding: 35px;
+}
+
+
+#logos-Fuzzy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: hidden red;
+}
+
+
+#socialmedia-logos {
+    display: flex;
+    gap: 15px;
+}
+
+footer a {
+    color: black;
+}
+
+#logos-Fuzzy img {
+    height: 25px;
+}
+
+
+#logos-Fuzzy p {
+    opacity: .5;
+}
+

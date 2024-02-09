@@ -8,7 +8,7 @@ anmeldenbtn.addEventListener('click', function() {
 
 
 
-    angemeldet.innerText = "Vielen Dank, bist angemeldet!";
+    angemeldet.innerText = "Abonniert, vielen Dank!";
 
     let email = document.getElementById("mailfield").value
 
