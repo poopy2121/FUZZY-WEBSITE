@@ -275,7 +275,7 @@ footer {
     flex-direction: column;
 }
 
-#vorteile {
+#vorteile-slide {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -294,15 +294,35 @@ footer {
 
 
 
-#footer-info {
+  footer {
+    border: hidden blue;
+}
+
+#footer-items {
     display: flex;
-    justify-content: space-around;
-    border: red hidden;
+    justify-content: space-between;
+    border: violet hidden;
+}
+
+#itemsandlogos {
+    border: solid green;
+    padding: 35px;
 }
 
 
-footer {
-    border: hidden blue;
+#logos {
+    display: flex;
+    border: hidden;
+    justify-content: space-between;
+    align-items: center;
+    border: hidden red;
+}
+
+
+#socialmedia {
+    border: hidden;
+    display: flex;
+    gap: 15px;
 }
 
 footer a {
@@ -313,15 +333,6 @@ footer a {
     height: 25px;
 }
 
-#logos {
-    display: flex;
-    border: hidden;
-    justify-content: space-around;
-    align-items: center;
-    gap: 900px;
-    margin-top: 15px;
-    padding: px;
-}
 
 #logos p {
     opacity: .5;
