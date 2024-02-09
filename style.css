@@ -58,20 +58,19 @@ nav li:hover {
 
 
 
-input {
+#searchbar {
     height: ;
     padding: 3px;
     border-radius: 4px;
-    border: hidden rgb(247, 175, 187);
-    position: relative;
+    border: none;
 }
 
-#lupefield {
+#lupe-und-searchbar {
     border: hidden red;
     display: flex;
 }
 
-#lupefield button {
+#lupe-und-searchbar button {
     background-color: violet;
 }
 
@@ -182,12 +181,6 @@ nav img {
     cursor: pointer;
 }
 
-#womanpic {
-    margin-bottom: 60px;
-    width: 100%;
-    position: absolute;
-    z-index: -2;
-}
 
 .section2, footer {
     position: relative;
@@ -247,9 +240,7 @@ nav img {
 
 
 
-#womanpic {
-    position: relative;
-}
+
 
 #description button {
     background-color: rgb(70, 70, 161);
