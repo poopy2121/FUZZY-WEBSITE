@@ -1,5 +1,6 @@
 DAS ist eine Website für einen fiktionalen Mode-Händler. 
 
+Noch nicht ganz fertig.
 
 Ich habe der Website folgende Funktionen gegeben:
 
